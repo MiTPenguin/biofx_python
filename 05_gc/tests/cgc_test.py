@@ -9,8 +9,8 @@ from subprocess import getstatusoutput
 
 PRG = './cgc.py'
 RUN = f'python {PRG}' if platform.system() == 'Windows' else PRG
-SAMPLE1 = './tests/inputs/1.fa'
-SAMPLE2 = './tests/inputs/2.fa'
+SAMPLE1 = '.\\tests\\inputs\\1.fa'
+SAMPLE2 = '.\\tests\\inputs\\2.fa'
 
 
 # --------------------------------------------------

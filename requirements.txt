@@ -1,12 +1,12 @@
 biopython
 black
 csvkit
-csvchk
+#csvchk
 flake8
 graphviz
 iteration_utilities
 mypy
-new-py
+#new-py
 pandas
 pylint
 pytest

@@ -77,3 +77,11 @@ Success: no issues found in 2 source files
 ## Author
 
 Ken Youens-Clark <kyclark@gmail.com>
+
+## Notes
+
+Still not super comfortable with argparse. I think I need more exercise with it to play around with the different
+options, and not just base it on some preiovusly written code.
+
+The typing module is sort of confusing. Apparently with the new python versions, it's not really needed. It's supposedly
+around the need for type hinting. It used to be that generic types can't be used for generic typing. 

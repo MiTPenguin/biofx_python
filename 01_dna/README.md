@@ -51,3 +51,17 @@ Success: no issues found in 2 source files
 ## Author
 
 Ken Youens-Clark <kyclark@gmail.com>
+
+### notes
+
+Some interesting tidbits about the python program. Often, things only crash later, becuase in python compilation and 
+executino is done in a single step. 
+
+There's also no type declaration in python. I haven't thought abou this aspect before, but I guess that usually means
+you can't really check for type error before. The author here uses "named tuple" as a way aroudn that.
+
+Hmm there are some concept here I need to get: like declaring class and 
+
+Testing: inside-out: test individual functions, or unit test
+
+outside-in: test the program as if a user is running it. IT's mroe holistic. AKA integration test.

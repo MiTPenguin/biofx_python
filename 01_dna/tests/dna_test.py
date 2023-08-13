@@ -2,7 +2,7 @@
 
 import os
 import platform
-from subprocess import getstatusoutput
+from subprocess import getstatusoutput # subprocess seems like a powerful module thats' worth lookign into
 
 PRG = './dna.py'
 RUN = f'python {PRG}' if platform.system() == 'Windows' else PRG
@@ -54,5 +54,5 @@ def test_file() -> None:
 
     for file, expected in [TEST1, TEST2, TEST3]:
         retval, out = getstatusoutput(f'{RUN} {file}')
-        assert retval == 0
+        assert retval == 0 # the assert fn type is not something I"m as familiar with
         assert out == expected

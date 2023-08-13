@@ -7,3 +7,9 @@ See [O'Reilly's website](https://get.oreilly.com/ind_mastering-python-for-bioinf
 # Author
 
 Ken Youens-Clark <kyclark@gmail.com>
+
+
+### Notes on running this tutorial on windows
+
+we can't seem to run `.py` scripts directly. it has to be preceeded with `python`. pytest works directly. This seems to
+be because the shebang is not really run 
