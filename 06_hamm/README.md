@@ -61,6 +61,10 @@ Success: no issues found in 2 source files
 ======================= 10 passed, 2 skipped in 0.40s =======================
 ```
 
+The going further test is kinda interesting as well. we would have to show some tests to use it. Showing a set of diff
+hamming distances across multiple sequences.
+
+But still I think it's more useful to think about how to do multiple alignment. 
 ## Author
 
 Ken Youens-Clark <kyclark@gmail.com>

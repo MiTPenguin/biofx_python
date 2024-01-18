@@ -70,3 +70,19 @@ Success: no issues found in 2 source files
 ## Author
 
 Ken Youens-Clark <kyclark@gmail.com>
+
+## Notes:
+Couple of interesitng solutions that are interesting. I ended up using the Collections package, and the counter method
+to just create quick dictionaries, then count the GC content that I care about. I wonder how fast that is compare to
+some of the solutions.
+
+StdIn works, but not in commandline, which somehow pytest always seems to call automatically. 
+
+The sorted, and the filter function with lambda are usueful things to keep in mind. Then there are a lot of testing 
+fns and shortcuts. Like I didn't know you can use empty string as boolean value. That's quick way to guard against 
+empty string input. 
+
+Hmm, then the BioSeq is the common way to parse sequencing data. I think that's also the most useful way to go through
+things like .bam files in python. 
+
+The argm=parse stuff I keeps forgetting still. it's not the biggest obstacle, but it is a bit annoying.

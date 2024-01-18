@@ -2,7 +2,7 @@
 
 import os
 import platform
-import random
+import random   
 import string
 import re
 from subprocess import getstatusoutput
@@ -63,7 +63,9 @@ def test_good_input2() -> None:
 def test_stdin() -> None:
     """ Works on STDIN """
 
-    rv, out = getstatusoutput(f'cat {SAMPLE1} | {RUN}')
+    rv, out = getstatusoutput(f'cat {SAMPLE1} | {RUN}') # we would have to correc this using a different way of getting statusout
+    # because otherwise we'd be running the command in cmd instead of powershell, which for whatever reason doesn't have normal
+    # common tools like cat and pipes.
     assert rv == 0
     assert out == 'Rosalind_0808 60.919540'
 
